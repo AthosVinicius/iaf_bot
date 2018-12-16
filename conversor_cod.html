@@ -1,0 +1,22 @@
+
+
+<form name="conversionForm" method="post">
+<textarea name="outputText" readonly="readonly" style="width:400px;height:200px;"></textarea><br>
+</form>
+
+
+<script>
+
+
+
+a('Esta função que me foi passada esta com erro ');
+
+ 	 	function a(b) {
+ 	 	 var c= '';
+ 	 	 for(i=0; i<b.length; i++){
+ 	 	 if(b.charCodeAt(i)>127){ c += '&#' + b.charCodeAt(i) + ';'; }else{ c += b.charAt(i); }
+ 	 	 }
+ 	 	 document.forms.conversionForm.outputText.value = c;
+ 	 	}
+		
+ </script>

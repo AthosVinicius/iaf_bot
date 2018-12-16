@@ -1,0 +1,142 @@
+body{
+	background-color:#006699;
+}
+
+#principal{
+	display:none;
+}
+
+
+
+#panelLogin{
+	margin-top: 120px;
+}
+
+#panelLogin table{
+	border:2px solid #000000;
+	border-radius:7px;
+}
+
+
+#panelLogado{
+	background-color:#006699;
+	width:800px;
+	height:500px;
+}
+
+#char_assistente{
+	border-radius:7px;
+	border:2px solid #FFFFFF;
+	width:100%;
+	float:left;
+	height:100%;
+	background-image:url('http://frases-fortes.com.br/sites/default/files/styles/portrait/public/images_1.jpeg?itok=rJ2zkQkA');
+	background-size:100%100%;
+}
+
+button{
+	cursor:pointer;
+}
+
+#panelsubPrincipal{
+	display:none;
+	margin:auto;
+	width:100%;
+	margin-top:30px;
+}
+
+#lista_de_comandos{
+	width:200px;
+}
+
+#lista_de_clientes_online{
+	width:200px;
+}
+
+#log_conversa_principal{
+	display:none;
+	padding:5px;
+	border:2px solid;
+	width: 90%;
+	margin-left: 120px;
+	height:450px;
+	background-color:#FFFFFF;
+	-moz-box-shadow:inset -3px 1px 30px #000000;
+	-webkit-box-shadow:inset -3px 1px 30px #000000;
+	box-shadow:inset -3px 1px 30px #000000;
+}
+
+#log_conversa_c{
+	padding:5px;
+	display:none;
+	border:2px solid;
+	width: 90%;
+	margin-left: 50px;
+	height:450px;
+	background-color:#FFFFFF;
+	-moz-box-shadow:inset -3px 1px 30px #000000;
+	-webkit-box-shadow:inset -3px 1px 30px #000000;
+	box-shadow:inset -3px 1px 30px #000000;
+}
+
+.msg_md_c{
+	width:80%;
+	border: 1px solid #666666;
+	border-radius: 7px;
+	padding: 10px;
+	margin-bottom: 4px;
+	font: small-caption;
+}
+
+.mmsg1{
+	color:#41525C;
+	float: right;
+	background-color: #C6D8D6;;
+}
+
+.mmsg2{
+	color:#222020;
+	float: left;
+	background-color: #E5F5EB;
+}
+
+
+#btn_conversar{
+}
+
+.btn_cmd_ini{
+	width:50px;
+	height:50px;
+	cursor:pointer;
+}
+
+#cmp_msg_c{
+  display:none;
+  padding-left: 120px;
+  width: 780px;
+ }
+ 
+#cmp_msg_c #input_cmp_msg{
+  border:1px solid #CCCCCC;
+  float: left;
+  width: 629px;
+  height: 28px;
+	-moz-box-shadow:inset -3px 1px 30px #000000;
+	-webkit-box-shadow:inset -3px 1px 30px #000000;
+	box-shadow:inset -3px 1px 30px #000000;
+}
+
+#btn_enviar_msg_c{
+  width: 100px;
+  height: 33px;
+  float: left;
+}
+
+#dv_cd_ajuda{
+}
+
+#dv_cd_ajuda textarea{
+	border: 2px solid #999999;
+	border-radius:7px;
+	margin-left:4px;
+}
